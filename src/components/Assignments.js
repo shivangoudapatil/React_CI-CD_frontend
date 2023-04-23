@@ -17,7 +17,7 @@ function Assignments() {
     const [modalDueDate, setModalDueDate] = useState("2023-01-01");
     const [modalIndex, setModalIndex] = useState(-1);
     const [next_id, setNext_id] = useState(0);
-    const api_endpoint = "http://ec2-52-53-221-71.us-west-1.compute.amazonaws.com/api/api/assignments";
+    const api_endpoint = "http://ec2-13-56-12-2.us-west-1.compute.amazonaws.com/api/api/assignments";
 
     useEffect(() => {
       axios.get(api_endpoint)
